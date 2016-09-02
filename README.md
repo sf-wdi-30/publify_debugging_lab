@@ -89,7 +89,7 @@ $ bundle install
 Setup your database & run your server:
 
 ```bash
-$ rake db:create
+$ rake db:setup # important that we seed here!
 $ rake db:migrate
 $ rails server
 ```
@@ -106,7 +106,7 @@ You will be signed in and issued a username and password:
 
 #### Seed your blog with posts & tags
 ```bash
-$ rake db:seed
+$ rake db:seed # populate your user with posts
 # => Seeded 24 articles...
 ```
 
