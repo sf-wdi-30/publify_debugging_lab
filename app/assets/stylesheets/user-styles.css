@@ -35,3 +35,7 @@ img.right {
 #sidebar .sidebar-body li {
   list-style-type: circle;
 }
+
+#sidebar #archives {
+  list-style-type: circle;
+}
