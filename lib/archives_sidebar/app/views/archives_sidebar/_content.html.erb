@@ -1,6 +1,6 @@
 <% unless sidebar.archives.blank? %>
   <h3 class="sidebar-title"><%= sidebar.title %></h3>
-  <div class="sidebar_body">
+  <div class="sidebar-body">
     <ul id="archives">
       <% sidebar.archives.each do |month| %>
         <% counter = sidebar.show_count ? "<em>(#{month[:article_count]})</em>" : "" %>
