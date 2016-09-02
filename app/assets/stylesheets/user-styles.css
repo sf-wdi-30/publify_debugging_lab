@@ -38,3 +38,8 @@ img.right {
 
 #archives{
     list-style: circle;
+}
+
+.sidebar_title {
+  font-family: monospace;
+}
